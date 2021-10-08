@@ -1,0 +1,25 @@
+GET http://localhost:3000/posts
+
+###
+
+DELETE http://localhost:6000/logout Content-Type: application/json
+
+{
+"token": ""
+}
+
+###
+
+POST http://localhost:3000/posts
+
+{
+"token": ""
+}
+
+###
+
+POST http://localhost:6000/login Content-Type: application/json
+
+{
+"username": "Mihlali"
+}
